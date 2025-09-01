@@ -1,3 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Balaji V N • Portfolio</title>
+  <meta name="description" content="AI/Software developer portfolio of Balaji V N" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top nav -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">BVN</a>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a class="btn-outline" href="BALAJI.V.N_RVITM.pdf" download>Download Resume</a>
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="hero">
+    <div class="container">
+      <p class="eyebrow reveal">Final-year Information Science Student</p>
+      <h1 class="reveal">Hi, I’m <span class="grad">Balaji V N</span>.<br/> I build AI-powered, impact-driven apps.</h1>
+      <p class="sub reveal">
+        I’ve shipped real-time solutions in ads automation, news recommendation, and cybersecurity — with Python/Java + modern web tech.
+      </p>
+      <div class="cta reveal">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn-ghost" href="#contact">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-bg" aria-hidden="true"></div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">About</h2>
+      <p class="reveal">
+        I’m a final-year Information Science student skilled in AI, Java, and Python. I’ve built AI-powered platforms for Google Ads automation,
+        a personalized news recommender (BERT + MTL), and a hybrid intrusion detection system (Random Forest + DNN).
+        I enjoy solving real problems and turning ideas into simple, usable products.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2 class="section-title reveal">Skills</h2>
+      <div class="chips reveal">
+        <span class="chip">Java</span><span class="chip">Python</span><span class="chip">C</span>
+        <span class="chip">SQL</span><span class="chip">JavaScript</span><span class="chip">HTML/CSS</span>
+        <span class="chip">BERT</span><span class="chip">MTL</span><span class="chip">Random Forest</span>
+        <span class="chip">DNN</span><span class="chip">scikit-learn</span><span class="chip">PostgreSQL</span>
+        <span class="chip">MySQL</span><span class="chip">MongoDB</span><span class="chip">Git</span>
+        <span class="chip">Streamlit</span><span class="chip">Tableau</span><span class="chip">Jupyter</span>
+      </div>
+    </div>
+  </section>
+
   <!-- Projects -->
   <section id="projects" class="section">
     <div class="container">
@@ -39,3 +110,62 @@
       </div>
     </div>
   </section>
+
+  <!-- Education -->
+  <section id="education" class="section alt">
+    <div class="container">
+      <h2 class="section-title reveal">Education & Achievements</h2>
+      <div class="edu-grid">
+        <div class="edu reveal">
+          <h4>RV Institute of Technology and Management</h4>
+          <p>B.E., Information Science & Engineering (2022–2026) • CGPA: 7.84</p>
+        </div>
+        <div class="edu reveal">
+          <h4>Vidya Jyothi PU College</h4>
+          <p>2019–2021 • 92.33%</p>
+        </div>
+        <div class="edu reveal">
+          <h4>St. Joseph’s Convent High School</h4>
+          <p>2019 • 84.32%</p>
+        </div>
+      </div>
+      <ul class="bullets reveal">
+        <li>Ranked #2 in 10th Standard</li>
+        <li>Delivered 2 AI projects used for real-time decision making</li>
+        <li>Captain of College Kabaddi Team</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Contact</h2>
+      <form class="contact reveal" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+        <!-- Replace the action with your Formspree endpoint -->
+        <div class="row">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Your email" required />
+        </div>
+        <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+        <p class="muted">No Formspree yet? Email me directly:
+          <a href="mailto:balajinarayan1964@gmail.com">balajinarayan1964@gmail.com</a>
+        </p>
+      </form>
+      <div class="social reveal">
+        <a class="btn-ghost" target="_blank" href="https://www.linkedin.com/in/balaji-v-n-2538292b1">LinkedIn</a>
+        <a class="btn-ghost" target="_blank" href="https://github.com/Balaji-vnls">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Balaji V N</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
