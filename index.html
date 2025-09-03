@@ -1,68 +1,191 @@
-<!-- Projects -->
-<section id="projects" class="section">
-  <div class="container">
-    <h2 class="section-title reveal">🚀 Featured Projects</h2>
-    <p class="section-subtitle reveal">
-      A selection of my top software engineering and AI-powered solutions.
-    </p>
-
-    <div class="grid modern-grid">
-      <!-- Project 1 -->
-      <article class="project-card reveal">
-        <img src="images/google-ads.jpg" alt="Google Ads Automation" class="project-img">
-        <div class="project-content">
-          <h3>AI-Powered Google Ads Campaign Automation Tool</h3>
-          <p>A full-stack React + Node.js platform with Google Ads API integration to automate ad creation, 
-             campaign launches, and performance tracking via a chatbot UI.</p>
-          <ul class="tags"><li>React</li><li>Node.js</li><li>MongoDB</li><li>Google Ads API</li></ul>
-          <div class="actions">
-            <a class="btn-sm" href="https://github.com/Balaji-vnls/AI-POWERED-GOOGLE-ADS-CAMPAIGN-AUTOMATION-TOOL" target="_blank">GitHub</a>
-            <a class="btn-sm ghost" href="https://youtu.be/6GG_6zgQanM" target="_blank">Watch Demo</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Project 2 -->
-      <article class="project-card reveal">
-        <img src="images/printxchange.jpg" alt="PrintXChange" class="project-img">
-        <div class="project-content">
-          <h3>PrintXChange — College Resource Platform</h3>
-          <p>A role-based Spring Boot + MySQL web app for print orders and item exchange. 
-             Features CSRF protection, PDF upload, and secure authentication.</p>
-          <ul class="tags"><li>Spring Boot</li><li>Java</li><li>MySQL</li></ul>
-          <div class="actions">
-            <a class="btn-sm" href="https://github.com/Balaji-vnls/PrintXChange" target="_blank">GitHub</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Project 3 -->
-      <article class="project-card reveal">
-        <img src="images/vnls-press.jpg" alt="VNLS-PRESS" class="project-img">
-        <div class="project-content">
-          <h3>VNLS-PRESS — Blogging Platform</h3>
-          <p>A minimal Flask + SQLite blog platform with CRUD functionality and 
-             responsive UI to practice full-stack fundamentals.</p>
-          <ul class="tags"><li>Flask</li><li>Python</li><li>SQLite</li></ul>
-          <div class="actions">
-            <a class="btn-sm" href="https://github.com/Balaji-vnls/VNLS-PRESS" target="_blank">GitHub</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Project 4 -->
-      <article class="project-card reveal">
-        <img src="images/nidps.jpg" alt="NIDPS Dashboard" class="project-img">
-        <div class="project-content">
-          <h3>AI-Powered NIDPS Dashboard</h3>
-          <p>A hybrid Intrusion Detection & Prevention System (Random Forest + DNN) 
-             with a Streamlit dashboard for real-time anomaly detection.</p>
-          <ul class="tags"><li>Python</li><li>Streamlit</li><li>DNN</li><li>Random Forest</li></ul>
-          <div class="actions">
-            <a class="btn-sm" href="https://github.com/Balaji-vnls/AI-Powered-NIDPS-Dashboard" target="_blank">GitHub</a>
-          </div>
-        </div>
-      </article>
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Balaji V N • Portfolio</title>
+  <meta name="description" content="AI/Software developer portfolio of Balaji V N" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">BVN</a>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a class="btn-outline" href="BALAJI.V.N_RVITM.pdf" download>Download Resume</a>
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+      </nav>
     </div>
-  </div>
-</section>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="top" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text reveal">
+        <h1>Hi, I’m <span class="grad">Balaji V N</span></h1>
+        <p class="sub">I’m a final-year Information Science student passionate about AI, Cybersecurity, and Full-Stack Development. I build impactful, scalable, and user-friendly solutions for real-world problems.</p>
+        <div class="cta">
+          <a class="btn" href="#projects">🚀 View Projects</a>
+          <a class="btn-ghost" href="#contact">📩 Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-img reveal">
+        <img src="images/profile.jpg" alt="Balaji V N" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section alt">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <p class="reveal">
+        I’m a driven developer and AI enthusiast with hands-on experience in building full-stack apps, AI-powered systems, and cybersecurity tools. 
+        My work includes an AI-powered ad campaign platform, a college resource-sharing system, and a hybrid intrusion detection dashboard. 
+        I enjoy solving tough challenges, learning continuously, and collaborating on impactful solutions.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Tech Stack & Skills</h2>
+      <div class="chips reveal">
+        <span class="chip">Java</span><span class="chip">Python</span><span class="chip">C</span>
+        <span class="chip">SQL</span><span class="chip">JavaScript</span><span class="chip">HTML/CSS</span>
+        <span class="chip">React</span><span class="chip">Node.js</span><span class="chip">Flask</span>
+        <span class="chip">Spring Boot</span><span class="chip">MongoDB</span><span class="chip">PostgreSQL</span>
+        <span class="chip">MySQL</span><span class="chip">DNN</span><span class="chip">Random Forest</span>
+        <span class="chip">Streamlit</span><span class="chip">Tableau</span><span class="chip">Git</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">🚀 Featured Projects</h2>
+      <p class="section-subtitle reveal">A selection of my top software engineering and AI-powered solutions.</p>
+
+      <div class="grid modern-grid">
+        <!-- Project 1 -->
+        <article class="project-card reveal">
+          <img src="images/google-ads.jpg" alt="Google Ads Automation" class="project-img">
+          <div class="project-content">
+            <h3>AI-Powered Google Ads Campaign Automation Tool</h3>
+            <p>Full-stack React + Node.js platform integrating with Google Ads API for automated ad creation, campaign launches, and analytics.</p>
+            <ul class="tags"><li>React</li><li>Node.js</li><li>MongoDB</li><li>Google Ads API</li></ul>
+            <div class="actions">
+              <a class="btn-sm" href="https://github.com/Balaji-vnls/AI-POWERED-GOOGLE-ADS-CAMPAIGN-AUTOMATION-TOOL" target="_blank">GitHub</a>
+              <a class="btn-sm ghost" href="https://youtu.be/6GG_6zgQanM" target="_blank">Watch Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card reveal">
+          <img src="images/printxchange.jpg" alt="PrintXChange" class="project-img">
+          <div class="project-content">
+            <h3>PrintXChange — College Resource Platform</h3>
+            <p>Role-based Spring Boot + MySQL web app for print orders & resource sharing with secure authentication and CSRF protection.</p>
+            <ul class="tags"><li>Spring Boot</li><li>Java</li><li>MySQL</li></ul>
+            <div class="actions">
+              <a class="btn-sm" href="https://github.com/Balaji-vnls/PrintXChange" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card reveal">
+          <img src="images/vnls-press.jpg" alt="VNLS-PRESS" class="project-img">
+          <div class="project-content">
+            <h3>VNLS-PRESS — Blogging Platform</h3>
+            <p>A lightweight Flask + SQLite blog app with CRUD features and responsive UI for fast deployment & learning purposes.</p>
+            <ul class="tags"><li>Flask</li><li>Python</li><li>SQLite</li></ul>
+            <div class="actions">
+              <a class="btn-sm" href="https://github.com/Balaji-vnls/VNLS-PRESS" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card reveal">
+          <img src="images/nidps.jpg" alt="NIDPS Dashboard" class="project-img">
+          <div class="project-content">
+            <h3>AI-Powered NIDPS Dashboard</h3>
+            <p>A hybrid Intrusion Detection & Prevention System (Random Forest + DNN) with Streamlit dashboard for live anomaly detection.</p>
+            <ul class="tags"><li>Python</li><li>Streamlit</li><li>DNN</li></ul>
+            <div class="actions">
+              <a class="btn-sm" href="https://github.com/Balaji-vnls/AI-Powered-NIDPS-Dashboard" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section alt">
+    <div class="container">
+      <h2 class="section-title reveal">🎓 Education & Achievements</h2>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <h4>RV Institute of Technology & Management</h4>
+          <p>B.E. in Information Science (2022–2026) • CGPA: 7.84</p>
+        </div>
+        <div class="timeline-item">
+          <h4>Vidya Jyothi PU College</h4>
+          <p>2019–2021 • 92.33%</p>
+        </div>
+        <div class="timeline-item">
+          <h4>St. Joseph’s Convent High School</h4>
+          <p>2019 • 84.32%</p>
+        </div>
+      </div>
+      <ul class="bullets reveal">
+        <li>Ranked #2 in 10th Standard</li>
+        <li>Developed AI projects for real-world decision making</li>
+        <li>Captain of College Kabaddi Team</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">📬 Get in Touch</h2>
+      <form class="contact reveal" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+        <div class="row">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Your email" required />
+        </div>
+        <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+        <p class="muted">Or email me at <a href="mailto:balajinarayan1964@gmail.com">balajinarayan1964@gmail.com</a></p>
+      </form>
+      <div class="social reveal">
+        <a class="btn-ghost" target="_blank" href="https://www.linkedin.com/in/balaji-v-n-2538292b1">LinkedIn</a>
+        <a class="btn-ghost" target="_blank" href="https://github.com/Balaji-vnls">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Balaji V N | Built with ❤️</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
